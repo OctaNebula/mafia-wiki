@@ -3,6 +3,7 @@ site_url: https://mafiawiki.astrofare.xyz/
 #repo_url: https://github.com/octanebula/mafiawiki
 theme:
   name: material
+  logo: assets/logo.png
   palette:
     scheme: slate
     primary: black
