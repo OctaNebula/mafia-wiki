@@ -23,14 +23,6 @@ body {
     border-radius: 10px; /* Optional: Rounded corners */
 }
 
-[data-md-color-primary="indigo"] {
-    --md-primary-fg-color: #0d0d0d !important; /* Dark text color */
-    --md-primary-fg-color--light: #8f9ef4 !important; /* Lighter text color */
-    --md-primary-fg-color--dark: #8091ff !important; /* Darker text color */
-    --md-primary-bg-color: #000 !important; /* Black background */
-    --md-primary-bg-color--light: rgba(0, 0, 0, 0.75) !important; /* Transparent black background */
-  }
-
 @media screen and (min-width: 76.25em) {
     .md-nav--primary .md-nav__title {
         background: rgba(0, 0, 0, 0) !important; /* Transparent background */
@@ -92,3 +84,13 @@ a:hover {
 body {
     font-family: var(--md-text-font);
 }
+
+.md-nav__title {
+    color: hsl(0, 0%, 100%) !important; /* Set the text color to white */
+    display: block !important; /* Ensure it behaves as a block element */
+    font-weight: 700 !important; /* Make the font bold */
+    overflow: hidden !important; /* Hide overflow text */
+    padding: 0 .6rem !important; /* Apply padding */
+    text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
+  }
+  
