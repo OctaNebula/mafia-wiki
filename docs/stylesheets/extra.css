@@ -3,7 +3,7 @@
 :root {
 
     --md-text-font: "Century Gothic Paneuropean", sans-serif;
-    --md-primary-fg-color: #4a90e2; /*Change primary color*/
+    --md-primary-fg-color: #171717; /*Change primary color*/
     --md-accent-fg-color: #ff4081; /*Change accent color*/
     --md-default-bg-color: #121212; /*Change background color */
 
@@ -13,6 +13,12 @@ body {
     background: url("./background.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white !important;
+}
+
+.md-nav--primary {
+    background: rgba(0, 0, 0, 0.75) !important; /* Semi-transparent black */
+    box-shadow: none !important; /* Removes any shadow effects */
+    border-radius: 10px; /* Optional: Rounded corners */
 }
 
 body::before {
