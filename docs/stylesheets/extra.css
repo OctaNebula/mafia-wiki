@@ -13,6 +13,7 @@ body {
     background: url("./background.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white !important;
+    
 }
 
 .md-nav--primary {
@@ -22,6 +23,13 @@ body {
     border-radius: 10px; /* Optional: Rounded corners */
 }
 
+[data-md-color-primary="indigo"] {
+    --md-primary-fg-color: #0d0d0d !important; /* Dark text color */
+    --md-primary-fg-color--light: #8f9ef4 !important; /* Lighter text color */
+    --md-primary-fg-color--dark: #8091ff !important; /* Darker text color */
+    --md-primary-bg-color: #000 !important; /* Black background */
+    --md-primary-bg-color--light: rgba(0, 0, 0, 0.75) !important; /* Transparent black background */
+  }
 
 @media screen and (min-width: 76.25em) {
     .md-nav--primary .md-nav__title {
