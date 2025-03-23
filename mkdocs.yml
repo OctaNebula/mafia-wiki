@@ -5,3 +5,5 @@ theme:
   name: material
 nav:
   - Home: index.md
+extra:
+  generator: false
