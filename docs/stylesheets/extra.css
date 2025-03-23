@@ -16,8 +16,9 @@ body {
 }
 
 .md-nav--primary {
-    background: rgba(0, 0, 0, 0.75) !important; /* Semi-transparent black */
-    box-shadow: none !important; /* Removes any shadow effects */
+    background: rgba(0, 0, 0, 0.75) !important;
+    background-image: none !important; /* Removes any gradient */
+    box-shadow: none !important; /* Removes unwanted shadows */
     border-radius: 10px; /* Optional: Rounded corners */
 }
 
