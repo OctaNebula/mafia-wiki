@@ -1,3 +1,7 @@
 site_name: Official Mafia Wiki
+site_url: https://mafiawiki.astrofare.xyz/
+repo_url: https://github.com/octanebula/mafiawiki
 theme:
   name: material
+nav:
+  - Home: index.md
