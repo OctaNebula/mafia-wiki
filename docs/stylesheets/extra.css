@@ -28,6 +28,16 @@ body::before {
     z-index: -1;
 }
 
+.md-container {
+    background: rgba(0, 0, 0, 0.75); /* Semi-transparent black */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    max-width: 1200px; /* Prevents content from stretching too much */
+    margin: auto; /* Centers the content */
+}
+
+
 
 body {
     font-family: var(--md-text-font);
