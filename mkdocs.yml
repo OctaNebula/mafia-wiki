@@ -5,8 +5,6 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: deep purple
-    accent: pink
 nav:
   - Home: index.md
 extra:
