@@ -7,5 +7,5 @@ nav:
   - Home: index.md
 extra:
   generator: false
-extra_css:
-  - stylesheets/extra.css
+# extra_css:
+#   - stylesheets/extra.css commented out for now
