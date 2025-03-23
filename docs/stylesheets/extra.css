@@ -26,6 +26,12 @@ body::before {
     z-index: -1;
 }
 
+.md-sidebar__scrollwrap {
+    background: rgba(0, 0, 0, 0.75) !important; /* Semi-transparent black */
+    border-radius: 10px; /* Optional: Rounded corners */
+    padding: 10px; /* Optional: Adds spacing */
+}
+
 .md-content {
     color: white !important;
 }
