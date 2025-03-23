@@ -5,6 +5,8 @@ theme:
   name: material
   palette:
     scheme: slate
+    primary: black
+    accent: magenta
 nav:
   - Home: index.md
 extra:
