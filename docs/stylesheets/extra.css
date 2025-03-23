@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
 
 :root {
-    --md-primary-fg-color: #4a90e2; /* Change primary color */
-    --md-accent-fg-color: #ff4081; /* Change accent color */
-    --md-default-bg-color: #121212; /* Change background color */
-    --md-text-font: "Josefin Sans", sans-serif;
+
+    --md-text-font: "Century Gothic Paneuropean", sans-serif;
 }
+
+/*
+    --md-primary-fg-color: #4a90e2; Change primary color
+    --md-accent-fg-color: #ff4081; Change accent color
+    --md-default-bg-color: #121212; Change background color 
+*/
 
 body {
     font-family: var(--md-text-font);
