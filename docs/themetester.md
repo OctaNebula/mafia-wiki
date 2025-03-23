@@ -1,6 +1,3 @@
-Here's a full Markdown file showcasing various Markdown formatting options, along with MkDocs callouts, so you can check how everything looks with your theme:
-
-```markdown
 # Markdown Formatting Showcase
 
 This document will showcase different types of formatting options available in Markdown, and some MkDocs callouts to check how they look in your theme.
