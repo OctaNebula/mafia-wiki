@@ -16,7 +16,6 @@ body {
     background-size: cover;
 }
 
-/* Dark overlay to improve text readability */
 body::before {
     content: "";
     position: fixed;
@@ -26,6 +25,10 @@ body::before {
     height: 100%;
     background: rgba(0, 0, 0, 0.6); /* Dark overlay */
     z-index: -1;
+}
+
+.md-footer {
+    display: none !important;
 }
 
 .md-container {
