@@ -29,5 +29,5 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
-extra_css:
- - stylesheets/extra.css
+#extra_css:
+# - stylesheets/extra.css
