@@ -58,6 +58,24 @@ body {
     scrollbar-color: rgba(0, 0, 0, 0);
 }
 
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 0px; /* Adjust width if needed */
+  }
+  
+  .md-sidebar__scrollwrap::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0px;
+  }
+  
+  .md-sidebar__scrollwrap {
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+
 
 body::before {
     content: "";
