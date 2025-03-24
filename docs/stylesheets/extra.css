@@ -23,6 +23,13 @@ body {
     border-radius: 10px; /* Optional: Rounded corners */
 }
 
+.md-nav--secondary {
+    background: rgba(0, 0, 0, 0.75) !important;
+    background-image: none !important; /* Removes any gradient */
+    box-shadow: none !important; /* Removes unwanted shadows */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
 @media screen and (min-width: 76.25em) {
     .md-nav--primary .md-nav__title {
         background: rgba(0, 0, 0, 0) !important; /* Transparent background */
