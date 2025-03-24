@@ -4,7 +4,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 <div class="infobox">
   <table>
     <tr>
-      <td colspan="2"><img src="your-image.jpg" alt="Image Description" class="infobox-image"></td>
+      <td colspan="2"><img src="../assets/logo.png" alt="Image Description" class="infobox-image"></td>
     </tr>
     <tr>
       <th>Attribute</th>
