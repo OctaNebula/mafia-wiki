@@ -54,6 +54,10 @@ body {
     box-shadow: none !important; /* Removes shadow */
 }
 
+.md-sidebar__scrollwrap {
+    scrollbar-color: rgba(0, 0, 0, 0);
+}
+
 
 body::before {
     content: "";
