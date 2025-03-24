@@ -10,7 +10,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
     </div>
     <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
-            <td colspan="2"><img src="../assets/logo.png" alt="Image Description" class="infobox-image" style="width: 35%;"></td>
+            <td colspan="2"><img src="../assets/logo.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
             </tr>
             <tr>
                 <th>Attribute</th>
