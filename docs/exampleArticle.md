@@ -8,7 +8,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
     <div style="flex: 1;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </div>
-    <div class="infobox" style="flex: 0 0 auto; margin-left: 20px;">
+    <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
             <td colspan="2"><img src="../assets/logo.png" alt="Image Description" class="infobox-image" style="width: 35%;"></td>
             </tr>
@@ -23,3 +23,4 @@ in: [main](https://mafiawiki.astrofare.xyz/)
         </table>
     </div>
 </div>
+
