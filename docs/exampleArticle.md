@@ -24,3 +24,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
     </div>
 </div>
 
+## Section 1
+---
+
+Welcome to the example article. Writing an article for this wiki might look difficult given the syntax of **Markdown**, but if you take a look at the source code for it you'll soon find writing articles a breeze. In fact, you're given far greater artistic liberty this way.
