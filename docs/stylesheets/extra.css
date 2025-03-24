@@ -37,7 +37,19 @@ body {
     }
 }
 
+@media screen and (min-width: 76.25em) {
+    .md-nav--secondary .md-nav__title {
+        background: rgba(0, 0, 0, 0) !important; /* Transparent background */
+        box-shadow: none !important; /* Removes shadow */
+    }
+}
+
 .md-nav--primary .md-nav__title {
+    background: rgba(0, 0, 0, 0) !important; /* Transparent background */
+    box-shadow: none !important; /* Removes shadow */
+}
+
+.md-nav--secondary .md-nav__title {
     background: rgba(0, 0, 0, 0) !important; /* Transparent background */
     box-shadow: none !important; /* Removes shadow */
 }
