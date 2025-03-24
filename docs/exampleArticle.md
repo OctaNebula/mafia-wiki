@@ -1,4 +1,6 @@
+
 in: [main](https://mafiawiki.astrofare.xyz/)
+
 # Example Article
 
 <div class="infobox">
