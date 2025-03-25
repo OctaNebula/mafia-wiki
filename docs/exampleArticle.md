@@ -11,6 +11,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
         align-items: center;
     }
     .infobox {
+        align-self: center;
         order: -1;
         margin-left: 0;
         margin-bottom: 20px;
