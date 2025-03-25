@@ -1,7 +1,7 @@
 
 in: [main](https://mafiawiki.astrofare.xyz/)
 
-# Example Article
+# **Example Article**
 ---
 
 <div style="display: flex; align-items: flex-start;">
@@ -24,12 +24,12 @@ in: [main](https://mafiawiki.astrofare.xyz/)
     </div>
 </div>
 
-## Introduction
+## **Introduction**
 ---
 
 Welcome to the example article. Writing an article for this wiki might look difficult given the syntax of **Markdown**, but if you take a look at the source code for it you'll soon find writing articles a breeze. In fact, you're given far greater artistic liberty this way, so in the long term it should be benefitial for you.
 
-## Using Markdown
+## **Using Markdown**
 ---
 
 Markdown is a lightweight markup language used for creating formatted text. The Mafia Wiki uses **[Material for mkdocs](https://squidfunk.github.io/mkdocs-material/)**, a wiki generator that converts Markdown (`.md`) files to a wiki page, which makes writing and adding new articles easy. Another benefit is that the entire site is static, meaning that setting the wiki up is not only easier but cheaper for us on our behalf.
