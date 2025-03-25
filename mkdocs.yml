@@ -9,6 +9,8 @@ theme:
     scheme: slate
     primary: black
     accent: magenta
+  features:
+    - navigation.instant.preview
 nav:
   - Home: index.md
 extra:
@@ -35,6 +37,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
+
 
 extra_css:
  - stylesheets/extra.css
