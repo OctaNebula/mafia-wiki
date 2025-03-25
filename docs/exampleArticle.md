@@ -4,6 +4,19 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 # **Example Article**
 ---
 
+<style>
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .infobox {
+        order: -1;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+</style>
+
 <div style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
         This is the <b>introduction</b> paragraph on the wiki page. When writing this, don't add too much text as it might break the site for mobile users. Keep everythin within 3 sentences.
