@@ -5,15 +5,17 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 ---
 
 <style>
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* For mobile users */
     .flex-container {
         flex-direction: column;
+        align-items: center;
     }
     .infobox {
         order: -1;
         margin-left: 0;
         margin-bottom: 20px;
         width: 100%;
+        max-width: 200px;
     }
 }
 </style>
