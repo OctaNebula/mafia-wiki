@@ -15,7 +15,6 @@ in: [main](https://mafiawiki.astrofare.xyz/)
         margin-left: 0;
         margin-bottom: 20px;
         width: 100%;
-        max-width: 200px;
     }
 }
 </style>
