@@ -21,7 +21,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 }
 </style>
 
-<div class="flex-container" style="display: flex; align-items: flex-start;" markdown>
+<div class="flex-container" style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
         This is the **introduction** paragraph on the wiki page. Here you should state what the article is about and what the reader can expect to learn from it. You can modify the infobox by changing the values in the table below. If you'd like to add more attributes, you can simply copy and paste the last row and change the values accordingly.
     </div>
