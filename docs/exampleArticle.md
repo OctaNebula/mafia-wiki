@@ -13,6 +13,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
         order: -1;
         margin-left: 0;
         margin-bottom: 20px;
+        width: 100%;
     }
 }
 </style>
