@@ -44,7 +44,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 ## **Introduction**
 ---
 
-Welcome to the example article. Writing an article for this wiki might look difficult given the syntax of **Markdown**, but if you take a look at the source code for it you'll soon find writing articles a breeze. In fact, you're given far greater artistic liberty this way, so in the long term it should be benefitial for you.
+Welcome to the example article. Writing an article for this wiki might look difficult given the fact that there's no built-in editor like Fandom has, but once you see how the source file of this page looks like and study it enough, you'll soon find writing articles pretty easy. In fact, you're given far greater artistic liberty this way, so in the long term it should be benefitial for you.
 
 ## **Using Markdown**
 ---
@@ -53,3 +53,18 @@ Markdown is a lightweight markup language used for creating formatted text. The 
 
 A great way to get started with writing markdown is installing the note app **[Obsidian](https://obsidian.md/)**. Obsidian uses Markdown and saves its files as `.md` files, which also makes it convenient as you can just upload the `.md` file to the wiki and it'll generate a webpage for you.
 If you'd like to avoid downloading any software or using Obsidian in general, you can also use [stackedit.io](https://stackedit.io).
+
+Now, about writing articles. The best way to write an article is to use this example article as a template. You can copy the source code of this page and paste it into your own `.md` file, then modify the content to fit your article. You can also use the [Markdown Guide](https://www.markdownguide.org/) to learn more about Markdown. When modifying the article, **make sure to not mess around with the introduction paragraph, except where you can see plain text**, as it's styled with HTML tags and not Markdown, and modifying it might break the infobox that can be seen on the right side of the page (or at the top if you're on mobile). After you've completed the introduction paragraph, you can write the rest of the article in Markdown.
+
+## **Submitting Articles**
+
+Once you've finished writing your article, you can submit it in the #wiki-submissions channel on the Mafia Discord server, preferably in a `.zip` file containing the `.md` file and any images you'd like to include in the article. Submitted articles will be reviewed by the staff and added to the wiki if they meet the quality standards. Any minor mistakes you make will be corrected by the staff, so don't worry about making a formatting mistake or two - it's the content that matters the most. 
+If you successfully contribute to the wiki (by submitting a new article, not editing an existing one) for the first time, you'll be rewarded with the following:
+
+ - 500 Credits
+ - Wiki Contributor role on Discord
+ - Wiki Contributor chat tag in the game
+ - Being credited on the [Contributors](https://mafiawiki.astrofare.xyz/contributors) page
+ - Our eternal gratitude
+
+Good luck with writing your article!
