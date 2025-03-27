@@ -1,6 +1,7 @@
 site_name: Mafia Wiki
 site_url: https://mafiawiki.astrofare.xyz/
 #repo_url: https://github.com/octanebula/mafiawiki
+
 theme:
   name: material
   logo: assets/logo.png
@@ -11,14 +12,17 @@ theme:
     accent: magenta
   features:
     - navigation.instant.preview
+
 nav:
   - Home: index.md
+
 extra:
   generator: false
   assets_dir: docs
   social:
     image: assets/logo.png
     description: The official Mafia Wiki for the Roblox game Mafia.
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -43,7 +47,5 @@ markdown_extensions:
   - pymdownx.tilde
   - md_in_html
 
-
 extra_css:
- - stylesheets/extra.css
-
+  - stylesheets/extra.css
