@@ -19,9 +19,6 @@ nav:
 extra:
   generator: false
   assets_dir: docs
-  social:
-    image: assets/logo.png
-    description: The official Mafia Wiki for the Roblox game Mafia.
 
 markdown_extensions:
   - admonition
