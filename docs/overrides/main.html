@@ -1,9 +1,14 @@
-{% extends "base.html" %}
+<head>
+    <!-- Default MkDocs head content -->
+    {% block extrahead %}{{ super() }}{% endblock %}
 
-{% block extrahead %}
-<meta property="og:title" content="Roblox Mafia Wiki">
-<meta property="og:description" content="The Official Roblox Mafia Wiki. A wiki dedicated to the Roblox game Mafia, created by Topline Studios.">
-<meta property="og:image" content="assets/logo.png">
-<meta property="og:url" content="https://mafiawiki.astrofare.xyz">
-<meta name="twitter:card" content="summary_large_image">
-{% endblock %}
+    <!-- Open Graph Meta Tags for Discord Embed -->
+    <meta property="og:title" content="{{ page.title }} - Roblox Mafia Wiki">
+    <meta property="og:description" content="Learn more about {{ page.title }} on the Mafia Wiki.">
+    <meta property="og:image" content="https://mafiawiki.astrofare.xyz/assets/logo.png">
+    <meta property="og:url" content="{{ page.canonical_url }}">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card (For Twitter/X embeds) -->
+    <meta name="twitter:card" content="summary_large_image">
+</head>

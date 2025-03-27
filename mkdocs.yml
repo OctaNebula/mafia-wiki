@@ -12,6 +12,8 @@ theme:
     accent: magenta
   features:
     - navigation.instant.preview
+  
+  custom_dir: overrides
 
 nav:
   - Home: index.md
