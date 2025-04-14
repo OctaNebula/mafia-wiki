@@ -151,6 +151,18 @@ body {
     .md-nav__title img {
         display: block !important; /* Ensure it behaves as a block element */
         margin: 0 auto !important; /* Center the image */
-        size: 100% !important; /* Set the image size to 100% */
     }
+}
+
+/* scales any image in the .md-nav__title on mobile screens*/
+
+@media screen and (max-width: 76.25em) {
+    .md-nav__title img {
+        max-width: 100% !important; /* Scale the image to fit the container */
+        height: auto !important; /* Maintain aspect ratio */
+    }/*
+    .md-nav__title {
+        padding: 0 !important;
+    } ngl i have 0 idea if removing padding is a good idea but i'll leave it here just in case ~ octa
+    */
 }
