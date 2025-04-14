@@ -133,5 +133,11 @@ body {
     overflow: hidden !important; /* Hide overflow text */
     padding: 0 .6rem !important; /* Apply padding */
     text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
-  }
+}
   
+
+@media screen and (max-width: 768px) {
+.md-logo label {
+    display: none !important;
+}
+}
