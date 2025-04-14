@@ -133,7 +133,12 @@ body {
     overflow: hidden !important; /* Hide overflow text */
     padding: 0 .6rem !important; /* Apply padding */
     text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
+}
 
-    white-space: nowrap !important; /* Prevent text wrapping */
+/* removes .md-nav__title when on mobile */
 
+@media screen and (max-width: 76.25em) {
+    .md-nav__title {
+        display: none !important; /* Hide the title on mobile */
+    }
 }
