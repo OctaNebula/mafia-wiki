@@ -91,19 +91,19 @@ greet()
 
 !!! note
 
-  This is an info callout. It's typically used to give helpful information.
+    This is an info callout. It's typically used to give helpful information.
 
 !!! tip
 
-  This is a tip callout. It's typically used to offer useful advice or shortcuts.
+    This is a tip callout. It's typically used to offer useful advice or shortcuts.
 
 !!! warning
 
-  This is a warning callout. It’s used to highlight potential issues or things to be careful about.
+    This is a warning callout. It’s used to highlight potential issues or things to be careful about.
 
 !!! danger
 
-  This is a danger callout. It's used to indicate critical issues or risks.
+    This is a danger callout. It's used to indicate critical issues or risks.
 
 ---
 
