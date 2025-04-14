@@ -34,6 +34,8 @@ jobs:
             mkdocs-material-
 
       - run: pip install mkdocs-material 
+      - run: pip install "mkdocs-material[imaging]"
+
 
       - name: Ensure CNAME file exists
         run: echo "mafiawiki.astrofare.xyz" > docs/CNAME
