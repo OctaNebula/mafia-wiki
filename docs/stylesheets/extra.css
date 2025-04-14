@@ -1,81 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
 
 :root {
-
     --md-text-font: "Century Gothic Paneuropean", sans-serif;
-    --md-primary-fg-color: #171717; /*Change primary color*/
-    --md-accent-fg-color: #ff4081; /*Change accent color*/
-    --md-default-bg-color: #121212; /*Change background color */
-
+    --md-primary-fg-color: #171717;
+    --md-accent-fg-color: #ff4081;
+    --md-default-bg-color: #121212;
 }
 
 body {
     background: url("./background.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white !important;
-    
+    font-family: var(--md-text-font);
 }
-
-.md-nav--primary {
-    background: rgba(0, 0, 0, 0.75) !important;
-    background-image: none !important; /* Removes any gradient */
-    box-shadow: none !important; /* Removes unwanted shadows */
-    border-radius: 10px; /* Optional: Rounded corners */
-}
-
-.md-nav--secondary {
-    background: rgba(0, 0, 0, 0.75) !important;
-    background-image: none !important; /* Removes any gradient */
-    box-shadow: none !important; /* Removes unwanted shadows */
-    border-radius: 10px; /* Optional: Rounded corners */
-}
-
-@media screen and (min-width: 76.25em) {
-    .md-nav--primary .md-nav__title {
-        background: rgba(0, 0, 0, 0) !important; /* Transparent background */
-        box-shadow: none !important; /* Removes shadow */
-    }
-}
-
-@media screen and (min-width: 76.25em) {
-    .md-nav--secondary .md-nav__title {
-        background: rgba(0, 0, 0, 0) !important; /* Transparent background */
-        box-shadow: none !important; /* Removes shadow */
-    }
-}
-
-.md-nav--primary .md-nav__title {
-    background: rgba(0, 0, 0, 0) !important; /* Transparent background */
-    box-shadow: none !important; /* Removes shadow */
-}
-
-.md-nav--secondary .md-nav__title {
-    background: rgba(0, 0, 0, 0) !important; /* Transparent background */
-    box-shadow: none !important; /* Removes shadow */
-}
-
-.md-sidebar__scrollwrap {
-    scrollbar-color: rgba(0, 0, 0, 0);
-}
-
-.md-sidebar__scrollwrap::-webkit-scrollbar {
-    width: 0px; /* Adjust width if needed */
-  }
-  
-  .md-sidebar__scrollwrap::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 0px;
-  }
-  
-  .md-sidebar__scrollwrap {
-    scrollbar-width: none; /* For Firefox */
-  }
-  
-
 
 body::before {
     content: "";
@@ -84,8 +21,57 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
+}
+
+.md-nav--primary,
+.md-nav--secondary {
+    background: rgba(0, 0, 0, 0.75) !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+.md-nav--primary .md-nav__title,
+.md-nav--secondary .md-nav__title {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 76.25em) {
+    .md-nav__title {
+        color: transparent !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        text-overflow: ellipsis !important;
+    }
+
+    .md-nav__title img {
+        display: block !important;
+        margin: 0 auto !important;
+        max-width: 75% !important;
+        height: auto !important;
+    }
+
+    .md-nav--primary {
+        border-radius: 0px !important;
+    }
+}
+
+.md-sidebar__scrollwrap {
+    scrollbar-width: none;
+    scrollbar-color: rgba(0, 0, 0, 0);
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 0px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-track,
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0px;
 }
 
 .md-content {
@@ -105,72 +91,28 @@ a:hover {
 }
 
 .md-container {
-    background: rgba(0, 0, 0, 0.75); /* Semi-transparent black */
-    border-radius: 0px; /* Rounded corners */
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0px;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
-    max-width: 1400px; /* Prevents content from stretching too much */
-    margin: auto; /* Centers the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1400px;
+    margin: auto;
 }
 
-.md-content h1, 
-.md-content h2, 
-.md-content h3, 
-.md-content h4, 
-.md-content h5, 
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
 .md-content h6 {
-    color: white !important; /* Set header text to white */
-}
-
-body {
-    font-family: var(--md-text-font);
+    color: white !important;
 }
 
 .md-nav__title {
-    color: hsl(0, 0%, 100%) !important; /* Set the text color to white */
-    display: block !important; /* Ensure it behaves as a block element */
-    font-weight: 700 !important; /* Make the font bold */
-    overflow: hidden !important; /* Hide overflow text */
-    padding: 0 .6rem !important; /* Apply padding */
-    text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
-}
-
-/* removes any text from .md-nav__title on mobile screens*/
-
-@media screen and (max-width: 76.25em) {
-    .md-nav__title {
-        color: transparent !important; /* Set the text color to transparent */
-        overflow: hidden !important; /* Hide overflow text */
-        padding: 0 !important; /* Remove padding */
-        text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
-    }
-}
-
-/* centers any image in the .md-nav__title on mobile screens*/
-@media screen and (max-width: 76.25em) {
-    .md-nav__title img {
-        display: block !important; /* Ensure it behaves as a block element */
-        margin: 0 auto !important; /* Center the image */
-    }
-}
-
-/* scales any image in the .md-nav__title on mobile screens*/
-
-@media screen and (max-width: 76.25em) {
-    .md-nav__title img {
-        max-width: 75% !important; /* Scale the image to fit the container */
-        height: auto !important; /* Maintain aspect ratio */
-    }/*
-    .md-nav__title {
-        padding: 0 !important;
-    } ngl i have 0 idea if removing padding is a good idea but i'll leave it here just in case ~ octa
-    */
-}
-
-/* removes round corners from the .md-nav__title on mobile screens*/
-
-@media screen and (max-width: 76.25em) {
-    .md-nav--primary {
-        border-radius: 0px !important; /* Remove rounded corners */
-    }
+    color: hsl(0, 0%, 100%) !important;
+    display: block !important;
+    font-weight: 700 !important;
+    overflow: hidden !important;
+    padding: 0 .6rem !important;
+    text-overflow: ellipsis !important;
 }
