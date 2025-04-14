@@ -59,6 +59,8 @@ If you'd like to avoid downloading any software or using Obsidian in general, yo
 
 Now, about writing articles. The best way to write an article is to use this example article as a template. You can copy the source code of this page and paste it into your own `.md` file, then modify the content to fit your article. You can also use the [Markdown Guide](https://www.markdownguide.org/) to learn more about Markdown. When modifying the article, **make sure to not mess around with the introduction paragraph, except where you can see plain text**, as it's styled with HTML tags and not Markdown, and modifying it might break the infobox that can be seen on the right side of the page (or at the top if you're on mobile). After you've completed the introduction paragraph, you can write the rest of the article in Markdown.
 
+Additionally, there's an page on this Wiki that contains an example of every Markdown feature you can use. You can find it [here](https://mafiawiki.astrofare.xyz/meta/formatting).
+
 ## **Submitting Articles**
 
 Once you've finished writing your article, you can submit it in the #wiki-submissions channel on the Mafia Discord server, preferably in a `.zip` file containing the `.md` file and any images you'd like to include in the article. Submitted articles will be reviewed by the staff and added to the wiki if they meet the quality standards. Any minor mistakes you make will be corrected by the staff, so don't worry about making a formatting mistake or two - it's the content that matters the most. 
