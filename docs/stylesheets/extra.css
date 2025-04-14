@@ -145,3 +145,11 @@ body {
         text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
     }
 }
+
+/* centers any image in the .md-nav__title on mobile screens*/
+@media screen and (max-width: 76.25em) {
+    .md-nav__title img {
+        display: block !important; /* Ensure it behaves as a block element */
+        margin: 0 auto !important; /* Center the image */
+    }
+}
