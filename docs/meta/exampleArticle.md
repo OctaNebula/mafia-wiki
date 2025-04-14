@@ -67,7 +67,7 @@ If you successfully contribute to the wiki (by submitting a new article, not edi
  - 500 Credits
  - Wiki Contributor role on Discord
  - Wiki Contributor chat tag in the game
- - Being credited on the [Contributors](https://mafiawiki.astrofare.xyz/contributors) page
+ - Being credited on the [Contributors](https://mafiawiki.astrofare.xyz/meta/contributors) page
  - Our eternal gratitude
 
 Good luck with writing your article!
