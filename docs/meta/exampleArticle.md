@@ -63,7 +63,7 @@ Additionally, there's an page on this Wiki that contains an example of every Mar
 
 ## **Submitting Articles**
 
-Once you've finished writing your article, you can submit it in the #wiki-submissions channel on the Mafia Discord server, preferably in a `.zip` file containing the `.md` file and any images you'd like to include in the article. Submitted articles will be reviewed by the staff and added to the wiki if they meet the quality standards. Any minor mistakes you make will be corrected by the staff, so don't worry about making a formatting mistake or two - it's the content that matters the most. 
+Once you've finished writing your article, you can submit it in the #wiki-submissions channel on the Mafia Discord server, preferably in a `.zip` file containing the `.md` file and any images you'd like to include in the article. Submitted articles will be reviewed by staff and added to the wiki if they meet the quality standards. Any minor mistakes you make will be corrected by us, so don't worry about making a formatting mistake or two - it's the content that matters the most. 
 If you successfully contribute to the wiki (by submitting a new article, not editing an existing one) for the first time, you'll be rewarded with the following:
 
  - 500 Credits
