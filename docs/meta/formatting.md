@@ -44,13 +44,13 @@ Make sure to check out it's source code on [GitHub](https://github.com/octanebul
 
 ## Links
 
-[Visit OpenAI](https://www.openai.com/)
+[Topline Studios](https://www.roblox.com/communities/5670504/TOPLINE-STUDIOS-INC#!/about)
 
 ---
 
 ## Images
 
-![MkDocs Logo](https://raw.githubusercontent.com/mkdocs/mkdocs/master/docs/images/mkdocs-logo.svg)
+![MkDocs Logo](https://mafiawiki.astrofare.xyz/assets/logo.png)
 
 ---
 
