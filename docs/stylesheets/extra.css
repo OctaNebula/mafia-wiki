@@ -135,10 +135,10 @@ body {
     text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
 }
 
-/* removes .md-nav__title when on mobile */
+/* removes any images from .md-nav__title on mobile screens*/
 
 @media screen and (max-width: 76.25em) {
-    .md-nav__title {
-        display: none !important; /* Hide the title on mobile */
+    .md-nav__title img {
+        display: none !important; /* Hide images */
     }
 }
