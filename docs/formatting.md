@@ -1,6 +1,8 @@
 # Markdown Formatting Showcase
 
-This document will showcase different types of formatting options available in Markdown, and some MkDocs callouts to check how they look in your theme.
+This document is a showcase of various Markdown formatting options you can use when writing articles for this wiki.
+
+Make sure to check out it's source code on [GitHub](https://github.com/octanebula/mafia-wiki/docs/formatting) to see how it was created!
 
 ---
 
