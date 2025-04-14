@@ -135,10 +135,13 @@ body {
     text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
 }
 
-/* removes any images from .md-nav__title on mobile screens*/
+/* removes any text from .md-nav__title on mobile screens*/
 
 @media screen and (max-width: 76.25em) {
-    .md-nav__title img {
-        display: none !important; /* Hide images */
+    .md-nav__title {
+        color: transparent !important; /* Set the text color to transparent */
+        overflow: hidden !important; /* Hide overflow text */
+        padding: 0 !important; /* Remove padding */
+        text-overflow: ellipsis !important; /* Add ellipsis for overflow text */
     }
 }
