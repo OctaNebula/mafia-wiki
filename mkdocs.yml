@@ -13,7 +13,7 @@ theme:
   features:
     - navigation.instant.preview
   
-  custom_dir: overrides
+  #custom_dir: overrides
 
 nav:
   - Home: index.md
