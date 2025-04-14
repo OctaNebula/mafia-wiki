@@ -28,7 +28,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
     <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
             <tr>
-                <th colspan="2" style="text-align: center;">Infobox Title</th>
+                <td colspan="2" style="text-align: center; font-weight: bold;">Infobox Title</td>
             </tr>
             <td colspan="2"><img src="../assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
             </tr>
