@@ -4,8 +4,8 @@ site_url: https://mafiawiki.astrofare.xyz/
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: /static/assets/logo.png
+  favicon: /static/assets/logo.png
   palette:
     scheme: slate
     primary: black
