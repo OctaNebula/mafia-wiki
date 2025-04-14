@@ -170,7 +170,7 @@ body {
 /* removes round corners from the .md-nav__title on mobile screens*/
 
 @media screen and (max-width: 76.25em) {
-    .md-nav__title {
+    .md-nav--primary {
         border-radius: 0px !important; /* Remove rounded corners */
     }
 }
