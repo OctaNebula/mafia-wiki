@@ -50,4 +50,4 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - social
+  - material/social
