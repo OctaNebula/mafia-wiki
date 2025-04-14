@@ -30,7 +30,7 @@ in: [main](https://mafiawiki.astrofare.xyz/)
             <tr>
                 <td colspan="2" style="text-align: center; font-weight: bold;">Infobox Title</td>
             </tr>
-            <td colspan="2"><img src="/static/assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
+            <td colspan="2"><img src="https://mafiawiki.astrofare.xyz/assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
             </tr>
             <tr>
                 <th>Attribute</th>
