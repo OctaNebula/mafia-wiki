@@ -166,3 +166,11 @@ body {
     } ngl i have 0 idea if removing padding is a good idea but i'll leave it here just in case ~ octa
     */
 }
+
+/* removes round corners from the .md-nav__title on mobile screens*/
+
+@media screen and (max-width: 76.25em) {
+    .md-nav__title {
+        border-radius: 0px !important; /* Remove rounded corners */
+    }
+}
