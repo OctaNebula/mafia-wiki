@@ -1,5 +1,5 @@
 
-<center>
+<center markdown="1">
 # **Welcome to the Official Roblox Mafia Wiki**
 ---
 </center>
