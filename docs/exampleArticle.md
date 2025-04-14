@@ -22,8 +22,8 @@ in: [main](https://mafiawiki.astrofare.xyz/)
 </style>
 
 <div class="flex-container" style="display: flex; align-items: flex-start;">
-    <div style="flex: 1;" markdown="1">
-        This is the **introduction** paragraph on the wiki page. Here you should state what the article is about and what the reader can expect to learn from it. Note that you'll need to use HTML tags to style your text, as Markdown doesn't support inline styling. Thankfully, this only applies to the introduction paragraph, as the rest of the article can be written in Markdown, more on Markdown in the next section. You can modify the infobox by changing the values in the table below. If you'd like to add more attributes, you can simply copy and paste the last row and change the values accordingly.
+    <div style="flex: 1;">
+        This is the <b>introduction</b> paragraph on the wiki page. Here you should state what the article is about and what the reader can expect to learn from it. Note that you'll need to use HTML tags to style your text, as Markdown doesn't support inline styling. Thankfully, this only applies to the introduction paragraph, as the rest of the article can be written in Markdown, more on Markdown in the next section. You can modify the infobox by changing the values in the table below. If you'd like to add more attributes, you can simply copy and paste the last row and change the values accordingly.
     </div>
     <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
