@@ -151,5 +151,6 @@ body {
     .md-nav__title img {
         display: block !important; /* Ensure it behaves as a block element */
         margin: 0 auto !important; /* Center the image */
+        size: 100% !important; /* Set the image size to 100% */
     }
 }
