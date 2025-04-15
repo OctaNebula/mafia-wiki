@@ -3,18 +3,18 @@
 {% block extrahead %}
     {{ super() }}
 
-    {% if page.meta.title %}
+    {% if page and page.meta.title %}
         <meta property="og:title" content="{{ page.meta.title }} - Mafia Wiki" />
         <meta name="twitter:title" content="{{ page.meta.title }} - Mafia Wiki" />
     {% endif %}
 
-    {% if page.meta.description %}
+    {% if page and page.meta.description %}
         <meta name="description" content="{{ page.meta.description }}" />
         <meta property="og:description" content="{{ page.meta.description }}" />
         <meta name="twitter:description" content="{{ page.meta.description }}" />
     {% endif %}
 
-    {% if page.meta.social_image %}
+    {% if page and page.meta.social_image %}
         <meta property="og:image" content="{{ page.meta.social_image }}" />
         <meta name="twitter:image" content="{{ page.meta.social_image }}" />
     {% endif %}
