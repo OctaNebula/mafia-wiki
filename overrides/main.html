@@ -23,7 +23,7 @@
     <meta property="og:type" content="article" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    {% if page.meta.background %}
+    {% if page and page.meta.background %}
         <style>
             body {
                 background: url('{{ page.meta.background }}') no-repeat center center fixed;
@@ -31,4 +31,5 @@
             }
         </style>
     {% endif %}
+    
 {% endblock %}
