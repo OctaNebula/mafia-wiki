@@ -109,6 +109,8 @@ a:hover {
 }
 
 .md-nav__title {
+    color: hsl(0, 0%, 100%) !important;
+
     @media screen and (max-width: 76.25em) {
         color: transparent !important;
     }
