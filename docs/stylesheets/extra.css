@@ -8,8 +8,8 @@
 }
 
 body {
-    background: url("./background.jpg") no-repeat center center fixed;
-    background-size: cover;
+    /* background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover; nuked due to me trying to make things more dynamic*/
     color: white !important;
     font-family: var(--md-text-font);
 }

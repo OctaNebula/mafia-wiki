@@ -22,4 +22,13 @@
     <meta property="og:url" content="{{ page.canonical_url }}" />
     <meta property="og:type" content="article" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    {% if page.meta.background %}
+        <style>
+            body {
+                background: url('{{ page.meta.background }}') no-repeat center center fixed;
+                background-size: cover;
+            }
+        </style>
+    {% endif %}
 {% endblock %}
