@@ -65,7 +65,24 @@ Now, about writing articles. The best way to write an article is to use this exa
 
 Additionally, there's an page on this Wiki that contains an example of every Markdown feature you can use. You can find it [here](https://mafiawiki.astrofare.xyz/meta/formatting).
 
+## **Frontmatter**
+---
+
+At the beginning of every article, you can see a section that looks like this:
+
+```markdown
+---
+title: Example Article
+description: This is an example article for the Mafia Wiki.
+social_image: /assets/placeholder.png
+background: /assets/background.jpg
+---
+```
+
+This is what we call the **YAML frontmatter** of the article. To sum everything up, this part gives some special instructions to the wiki generator on how to display the article. The first `title`, `description` and `social_image` attributes are used to manage the article's social media embed. The `title` is the title of the article, the `description` is the description that will be shown when sharing the article on social media, and the `social_image` is the image that will be used as a thumbnail when sharing the article. On the other hand, the `background` attribute is used to set the background image of the article. You can use any image you want, but make sure it's at least 1920x1080 pixels in size for best results. You can also use a solid color instead of an image by using a hex color code (e.g., `#ff0000` for red).
+
 ## **Submitting Articles**
+---
 
 Once you've finished writing your article, you can submit it in the #wiki-submissions channel on the Mafia Discord server, preferably in a `.zip` file containing the `.md` file and any images you'd like to include in the article. Submitted articles will be reviewed by staff and added to the wiki if they meet the quality standards. Any minor mistakes you make will be corrected by us, so don't worry about making a formatting mistake or two - it's the content that matters the most. 
 If you successfully contribute to the wiki (by submitting a new article, not editing an existing one) for the first time, you'll be rewarded with the following:
