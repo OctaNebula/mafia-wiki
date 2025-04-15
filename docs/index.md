@@ -1,3 +1,8 @@
+---
+title: Official Roblox Mafia Wiki
+description: test
+social_image: /assets/placeholder.png
+---
 
 <center markdown="1">
 # **Welcome to the Official Roblox Mafia Wiki**
