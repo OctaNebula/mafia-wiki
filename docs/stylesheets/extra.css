@@ -109,7 +109,9 @@ a:hover {
 }
 
 .md-nav__title {
-    color: transparent !important;
+    @media screen and (max-width: 76.25em) {
+        color: transparent !important;
+    }
     display: block !important;
     font-weight: 700 !important;
     overflow: hidden !important;
