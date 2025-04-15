@@ -32,7 +32,7 @@ background: /assets/background.jpg
     <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
             <tr>
-                <td colspan="2" style="text-align: center; font-weight: bold;">Mafia</td>
+                <td colspan="2" style="text-align: center; font-weight: bold;">The Mafia</td>
             </tr>
             <td colspan="2"><img src="https://mafiawiki.astrofare.xyz/assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
             </tr>
