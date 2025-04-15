@@ -1,12 +1,12 @@
 ---
-title: Example Article
-description: This is an example article for the Mafia Wiki.
+title: Mafia
+description: This page describes the role and function of the Mafia role.
 social_image: /assets/placeholder.png
 background: /assets/background.jpg
 ---
 ---
-title: Example Article
-description: This is an example article for the Mafia Wiki.
+title: Mafia
+description: This page describes the role and function of the Mafia role.
 social_image: /assets/placeholder.png
 background: /assets/background.jpg
 ---
