@@ -34,7 +34,10 @@ background: /assets/background.jpg
             <tr>
                 <td colspan="2" style="text-align: center; font-weight: bold;">Infobox Title</td>
             </tr>
-            <td colspan="2"><img src="https://mafiawiki.astrofare.xyz/assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;"></td>
+            <tr>
+                <td colspan="2">
+                    <img src="https://mafiawiki.astrofare.xyz/assets/placeholder.png" alt="Image Description" class="infobox-image" style="width: 100%;">
+                </td>
             </tr>
             <tr>
                 <th>Attribute</th>
