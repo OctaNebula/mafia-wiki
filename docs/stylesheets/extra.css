@@ -7,6 +7,20 @@
     --md-default-bg-color: #121212;
 }
 
+/* Prevents horizontal overflow on any content */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.md-content,
+.flex-container,
+.md-typeset {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
 body {
     /* background: url("./background.jpg") no-repeat center center fixed;
     background-size: cover; nuked due to me trying to make things more dynamic*/
