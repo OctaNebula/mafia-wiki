@@ -148,12 +148,20 @@ Avoid eliminating the **Vigilante** immediately and let them suspect a **Civilia
 ---
 
 The **Witch**, if part of the **Evil Team**, cannot curse the **Mafia**. 
+
 The **Mafia** can be killed by the **Jester** only.
+
 The **Mafia** who kills a target gets **3 credits** and **6XP**.
+
 If a **Mafia** kills a **Vigilante**, they get **4 credits** and **8XP**.
+
 If the **Doctor** heals the **Mafias'** target, there's text that states "You were healed!" for the target, and "Your target was healed!" for the **Mafia**.
+
 If all of the **Mafia** team leave, the game ends and **Civilians** win. 
+
 Different music plays for the **Mafia** before and after they eliminate a player during the night. 
 The **Mafia** was the first role to be implemented in the game.
+
 The game goes on until the amount of **Civilians** meets the amount of the **Evil Team**.
+
 The **Evil Team** cannot vote for each other during **voting time**. 
