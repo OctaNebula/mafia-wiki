@@ -1,6 +1,6 @@
 ---
-title: Official Roblox Mafia Wiki
-description: test
+title: Home
+description: Welcome to the Official Roblox Mafia Wiki
 social_image: /assets/placeholder.png
 ---
 
