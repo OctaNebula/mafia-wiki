@@ -109,7 +109,7 @@ a:hover {
 }
 
 .md-nav__title {
-    color: hsl(0, 0%, 100%) !important;
+    color: transparent !important;
     display: block !important;
     font-weight: 700 !important;
     overflow: hidden !important;
