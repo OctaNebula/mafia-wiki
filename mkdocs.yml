@@ -51,8 +51,4 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - social:
-      cards_layout_options:
-        font_family: Josefin Sans
-        title: Official Mafia Wiki
   - search
