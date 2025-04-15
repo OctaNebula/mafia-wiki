@@ -9,17 +9,18 @@ background: /assets/background.jpg
 ---
 
 <style>
-.infobox {
-    flex: 0 0 200px;
-    margin-left: 20px;
-}
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* For mobile users */
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
     .infobox {
-        flex: 1 1 auto;
-        width: 100%;
-        max-width: 300px;
+        align-self: center;
+        order: -1;
         margin-left: 0;
         margin-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
     }
 }
 </style>
@@ -28,7 +29,7 @@ background: /assets/background.jpg
     <div style="flex: 1;">
         This is the <b>introduction</b> paragraph on the wiki page. Here you should state what the article is about and what the reader can expect to learn from it. Note that you'll need to use HTML tags to style your text, as Markdown doesn't support inline styling. Thankfully, this only applies to the introduction paragraph, as the rest of the article can be written in Markdown, more on Markdown in the next section. You can modify the infobox by changing the values in the table below. If you'd like to add more attributes, you can simply copy and paste the last row and change the values accordingly.
     </div>
-    <div class="infobox">
+    <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
             <tr>
                 <td colspan="2" style="text-align: center; font-weight: bold;">Infobox Title</td>
