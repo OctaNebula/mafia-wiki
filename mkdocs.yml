@@ -4,6 +4,7 @@ site_url: https://mafiawiki.astrofare.xyz/
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
@@ -13,7 +14,7 @@ theme:
   features:
     - navigation.instant.preview
   
-  #custom_dir: overrides
+
 
 nav:
   - Home: index.md
