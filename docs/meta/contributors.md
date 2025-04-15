@@ -1,3 +1,10 @@
+---
+title: Contributors
+description: Contributors to the wiki
+social_image: /assets/placeholder.png
+background: /assets/background.jpg
+---
+
 # Contributors
 
 This wiki exists thanks to the contributions of the following people:

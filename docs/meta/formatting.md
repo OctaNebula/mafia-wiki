@@ -1,3 +1,10 @@
+---
+title: Markdown Formatting Showcase
+description: A showcase of various Markdown formatting options that can be used in the Wiki.
+social_image: /assets/placeholder.png
+background: /assets/background.jpg
+---
+
 # Markdown Formatting Showcase
 
 This document is a showcase of various Markdown formatting options you can use when writing articles for this wiki.

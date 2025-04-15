@@ -1,5 +1,9 @@
-
-in: [main](https://mafiawiki.astrofare.xyz/)
+---
+title: Example Article
+description: This is an example article for the Mafia Wiki.
+social_image: /assets/placeholder.png
+background: /assets/background.jpg
+---
 
 # **Example Article**
 ---
