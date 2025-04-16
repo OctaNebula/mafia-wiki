@@ -1,17 +1,17 @@
 ---
-title: The Judge
-description: This article explains the role of the Judge.
+title: The Detainer
+description: This article explains the role of the Detainer.
 social_image: /assets/placeholder.png
 background: /assets/background.jpg
 ---
 ---
-title: The Judge
-description: This article explains the role of the Judge.
+title: The Detainer
+description: This article explains the role of the Detainer.
 social_image: /assets/placeholder.png
 background: /assets/background.jpg
 ---
 
-# The Judge
+# The Detainer
 ---
 
 <style>
