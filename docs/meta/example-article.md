@@ -73,10 +73,10 @@ Additionally, there's an page on this Wiki that contains an example of every Mar
 
 At the beginning of every article, you can see a section that looks like this:
 
-title: Example Article
-description: This is an example article for the Mafia Wiki.
-social_image: /assets/placeholder.png
-background: /assets/background.jpg
+`title: Example Article`
+`description: This is an example article for the Mafia Wiki.`
+`social_image: /assets/placeholder.png`
+`background: /assets/background.jpg`
 
 This is what we call the **YAML frontmatter** of the article. To sum everything up, this part gives some special instructions to the wiki generator on how to display the article. The first `title`, `description` and `social_image` attributes are used to manage the article's social media embed. The `title` is the title of the article, the `description` is the description that will be shown when sharing the article on social media, and the `social_image` is the image that will be used as a thumbnail when sharing the article. On the other hand, the `background` attribute is used to set the background image of the article. You can use any image you want, but make sure it's at least 1920x1080 pixels in size for best results. You can also use a solid color instead of an image by using a hex color code (e.g., `#ff0000` for red).
 
