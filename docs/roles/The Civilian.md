@@ -107,3 +107,5 @@ Since the **Civilian** has no special abilities aside from the perks they can us
 In **OG Mafia**, **Civilians** used to be called Innocents as well as **Civilians**.
 
 On a 20 player server, there would be 16 or 17 players on the **Good Team** depending on if the **Witch** has chosen to be part of the **Evil Team**. 
+
+None of the game passes allow players to get double chances for obtaining this role.
