@@ -82,6 +82,8 @@ Both weapons are instantly fatal, *though this depends on if the player has the 
 
 In the game, the **Evil Team** has their own private chat. With the private chat, the **Evil Team** can discuss tactics, targets, location, and more. The private chat is key to succession as the **Evil Team** must communicate effectively to win and avoid being caught by the **Civilians**. 
 
+The **Vigilante** poses as the biggest threat to the **Mafias** as the **Vigilante** can kill any of the **Mafias** during each night.
+
 ## **Tips and Tricks**
 ---
 Do not reveal that you are part of the **Mafia** at any point in the game. Revealing that you are part of the **Mafia** will result in **Civilians** voting you out immediately. This is because if you are voted out, even if the **Mafia** win you will not earn **credits** or **XP** for winning.
@@ -122,7 +124,7 @@ Avoid eliminating the **Vigilante** immediately and let them suspect a **Civilia
 
 The **Witch**, if part of the **Evil Team**, cannot curse the **Mafia**. 
 
-A **Mafioso** can be killed by the **Jester** only.
+A **Mafioso** can be killed by the **Jester** and the **Vigilante**.
 
 The **Mafioso** who kills a target gets 3 credits and 6XP.
 
