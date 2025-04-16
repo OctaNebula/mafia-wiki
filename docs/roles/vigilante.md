@@ -48,7 +48,7 @@ background: /assets/background.jpg
             </tr>
             <tr>
                 <th>Goal</th>
-                <td>Killing the Mafias</td>
+                <td>Killing the Mafia members</td>
             </tr>
             <tr>
                  <th> Max Players </th>
