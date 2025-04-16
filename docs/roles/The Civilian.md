@@ -98,6 +98,8 @@ Avoid acting as if you have a unique role as this makes you more suspicious to o
 
 The **Civilian** is the most common role in the game, spanning from a chance of 9% to 50%.
 
+**Civilians** earn 5 **credits** and 10 **XP** for winning a game. They also earn 2 **credits** and 4 **XP** if they survive the **night**, and 1 **credit** and 2 **XP** if they don't get voted out during **discussion** time.
+
 On a 10 player server, no **Civilians** are present. This is because there would be 10 players already in unique roles.
 
 Since the **Civilian** has no special abilities aside from the perks they can use, people tend to immediately leave the game.
