@@ -33,7 +33,7 @@ background: /assets/background.jpg
 
 <div class="flex-container" style="display: flex; align-items: flex-start;">
     <div style="flex: 1;">
-        The <b> Vigilante </b> role is part of the <b> Good Roles </b>. It is one of the most important roles in the game as its role is to shoot a <b> Mafioso </b> during the night. This role appears in both Normal and <b>Disguised</b> rounds.<p> The <b> Vigilante </b> must shoot a <b> Mafioso </b> in order to aid the <b> Civilians </b> and their chances of succession. If a <b> Vigilante </b> shoots a <b> Civilian </b>, they will kill their target and themselves in the process.
+        The <b> Vigilante </b> role is part of the <b> Good Roles </b>. It is one of the most important roles in the game as its role is to shoot a <b> Mafioso </b> during the night. This role appears in both Normal and <b>Disguised</b> rounds.<p> The <b> Vigilante </b> must shoot a <b> Mafioso </b> (also applies to a <b> Witch </b> on the <b> Evil Team </b>) in order to aid the <b> Civilians </b> and their chances of succession. If a <b> Vigilante </b> shoots a <b> Civilian </b>, they will kill their target and themselves in the process.
     </div>
     <div class="infobox" style="flex: 0 0 200px; margin-left: 20px;">
         <table>
