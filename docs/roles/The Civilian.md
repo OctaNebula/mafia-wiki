@@ -52,7 +52,7 @@ background: /assets/background.jpg
             </tr>
             <tr>
                  <th> Max Players </th>
-                 <td> 1-10 </th>
+                 <td> 1-9 </th>
             </tr>
         </table>
     </div>
@@ -60,7 +60,7 @@ background: /assets/background.jpg
 
 ## **In-Game**
 ---
-On a 20 player server, there would be 10 **Civilians** present. The chance of obtaining the **Civilian** role would therefore be 50%.
+On a 20 player server, there would be 9 **Civilians** present. The chance of obtaining the **Civilian** role would therefore be 45%.
 
 The lowest chance of obtaining the **Civilian** role is in an 11 player server, where the chance lowers to 9.1%.
 
@@ -96,7 +96,7 @@ Avoid acting as if you have a unique role as this makes you more suspicious to o
 ## **Trivia**
 ---
 
-The **Civilian** is the most common role in the game, spanning from a chance of 9% to 50%.
+The **Civilian** is the most common role in the game, spanning from a chance of 9% to 45%.
 
 **Civilians** earn 5 **credits** and 10 **XP** for winning a game. They also earn 2 **credits** and 4 **XP** if they survive the **night**, and 1 **credit** and 2 **XP** if they don't get voted out during **discussion** time.
 
