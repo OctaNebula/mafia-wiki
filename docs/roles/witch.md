@@ -100,6 +100,8 @@ If you are on the **Good** side, do not be obvious with your role. If the **Mafi
 
 Avoid being arrested by the **Detainer** no matter what side you're on as this will slow your chances of succession for your team. Try and curse the **Detainer** in a subtle way (e.g. behind them) if you're confident enough.
 
+If a player suspects you of being the **Witch**, you could say you are the **Jester** to avoid players voting you out. 
+
 Avoid making enemies with the **Jester** as they are not on the **Evil** nor the **Good** side. If they kill you, you're out of the game, and your team is more likely to lose.
 ## **Trivia**
 ---
