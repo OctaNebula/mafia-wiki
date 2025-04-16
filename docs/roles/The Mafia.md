@@ -11,7 +11,7 @@ social_image: /assets/placeholder.png
 background: /assets/background.jpg
 ---
 
-# Mafia [Role]
+# The Mafia
 ---
 
 <style>
