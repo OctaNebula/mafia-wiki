@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+
+:root {
+    --md-text-font: "Century Gothic Paneuropean", sans-serif;
+    --md-primary-fg-color: #171717;
+    --md-accent-fg-color: #ff4081;
+    --md-default-bg-color: #121212;
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+body {
+    /* background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover; nuked due to me trying to make things more dynamic*/
+    color: white !important;
+    font-family: var(--md-text-font);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.md-nav--primary,
+.md-nav--secondary {
+    background: rgba(0, 0, 0, 0.75) !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+.md-nav--primary .md-nav__title,
+.md-nav--secondary .md-nav__title {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 76.25em) {
+    .md-nav__title {
+        color: transparent !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        text-overflow: ellipsis !important;
+    }
+
+    .md-nav__title img {
+        display: block !important;
+        margin: 0 auto !important;
+        max-width: 75% !important;
+        height: auto !important;
+    }
+
+    .md-nav--primary {
+        border-radius: 0px !important;
+    }
+}
+
+.md-sidebar__scrollwrap {
+    scrollbar-width: none;
+    scrollbar-color: rgba(0, 0, 0, 0);
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 0px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-track,
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0px;
+}
+
+.md-content {
+    color: white !important;
+}
+
+.md-footer {
+    display: none !important;
+}
+
+a {
+    color: #4a90e2 !important;
+}
+
+a:hover {
+    color: #ff4081 !important;
+}
+
+.md-container {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1400px;
+    margin: auto;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+    color: white !important;
+}
+
+.md-nav__title {
+    color: hsl(0, 0%, 100%) !important;
+
+    @media screen and (max-width: 76.25em) {
+        color: transparent !important;
+    }
+    display: block !important;
+    font-weight: 700 !important;
+    overflow: hidden !important;
+    padding: 0 .6rem !important;
+    text-overflow: ellipsis !important;
+}
