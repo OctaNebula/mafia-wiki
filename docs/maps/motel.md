@@ -1,14 +1,14 @@
 ---
 title: The Motel
 description: This article gives information about the Motel map.
-social_image: /assets/placeholder.png
-background: /assets/background.jpg
+social_image: /assets/corridorCropped.png
+background: /assets/mainCorridor.jpg
 ---
 ---
 title: Motel
 description: This article gives information about the Motel map.
-social_image: /assets/placeholder.png
-background: /assets/background.jpg
+social_image: /assets/corridorCropped.png
+background: /assets/mainCorridor.jpg
 ---
 
 # Motel
