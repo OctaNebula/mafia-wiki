@@ -1,5 +1,5 @@
 ---
-title: The Motel
+title: Motel
 description: This article gives information about the Motel map.
 social_image: /assets/corridorCropped.png
 background: /assets/mainCorridor.png
