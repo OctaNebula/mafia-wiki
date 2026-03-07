@@ -252,60 +252,6 @@ a:hover {
     font-weight: 500;
 }
 
-/* ── Instant preview tooltip ── */
-.md-tooltip {
-    width: 340px !important;
-    max-width: 340px !important;
-    height: 220px !important;
-    max-height: 220px !important;
-    overflow: hidden !important;
-    font-size: 0.82rem !important;
-    border-radius: 8px !important;
-    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
-    background: rgba(18, 18, 18, 0.95) !important;
-    backdrop-filter: blur(8px);
-}
-
-/* Hidden until JS adds .md-tooltip--delayed */
-.md-tooltip--active:not(.md-tooltip--delayed) {
-    opacity: 0 !important;
-    pointer-events: none !important;
-}
-
-.md-tooltip--delayed {
-    opacity: 1 !important;
-    pointer-events: auto !important;
-}
-
-.md-tooltip .md-tooltip__inner {
-    width: 340px !important;
-    max-width: 340px !important;
-    height: 220px !important;
-    max-height: 220px !important;
-    overflow: hidden !important;
-    padding: 0 !important;
-}
-
-.md-tooltip .md-tooltip__inner iframe {
-    width: 340px !important;
-    height: 220px !important;
-}
-
-/* Fade out bottom edge of preview */
-.md-tooltip::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background: linear-gradient(to bottom, transparent, rgba(18, 18, 18, 0.95));
-    pointer-events: none;
-    z-index: 10;
-    border-radius: 0 0 8px 8px;
-}
-
 /* ── Hide empty right sidebar ── */
 .md-sidebar--secondary:has(.md-nav--secondary .md-nav__list:empty),
 .md-sidebar--secondary:has(.md-nav--secondary:empty) {

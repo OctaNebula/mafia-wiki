@@ -13,7 +13,6 @@ theme:
     primary: black
     accent: magenta
   features:
-    - navigation.instant.preview
     - navigation.indexes
 
 
