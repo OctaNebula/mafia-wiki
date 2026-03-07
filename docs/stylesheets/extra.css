@@ -44,6 +44,78 @@ body::before {
     box-shadow: none !important;
 }
 
+/* ── Sidebar polish ── */
+.md-sidebar {
+    padding: 12px 0;
+}
+
+.md-sidebar__scrollwrap {
+    padding: 0 4px;
+}
+
+.md-nav--primary > .md-nav__list {
+    padding: 8px 6px;
+}
+
+.md-nav__item {
+    padding: 0;
+}
+
+.md-nav__link {
+    padding: 8px 12px !important;
+    border-radius: 6px;
+    margin: 1px 0;
+    font-size: 0.82rem;
+    letter-spacing: 0.01em;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.md-nav__link:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+}
+
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+    background: rgba(74, 144, 226, 0.12) !important;
+    color: #4a90e2 !important;
+    font-weight: 600;
+}
+
+/* Sidebar section labels (top-level items with children) */
+.md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item--nested > label.md-nav__link {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.45) !important;
+    padding: 10px 12px 4px !important;
+    margin-top: 8px;
+}
+
+/* Nested nav children get a subtle left border */
+.md-nav--primary .md-nav--secondary,
+.md-nav__item--nested .md-nav {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Nav toggle icon (expand/collapse chevron) */
+.md-nav__icon {
+    color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Primary nav title ("Mafia Wiki" label) */
+.md-nav--primary > .md-nav__title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.35) !important;
+    padding: 12px 12px 8px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 4px;
+}
+
 @media screen and (max-width: 76.25em) {
     .md-nav__title {
         color: transparent !important;
@@ -64,19 +136,22 @@ body::before {
     }
 }
 
-.md-sidebar__scrollwrap {
-    scrollbar-width: none;
-    scrollbar-color: rgba(0, 0, 0, 0);
-}
-
 .md-sidebar__scrollwrap::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
 }
 
-.md-sidebar__scrollwrap::-webkit-scrollbar-track,
-.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+.md-sidebar__scrollwrap::-webkit-scrollbar-track {
     background: transparent;
-    border-radius: 0px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.md-sidebar__scrollwrap {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
 }
 
 .md-content {
@@ -115,14 +190,9 @@ a:hover {
 
 .md-nav__title {
     color: hsl(0, 0%, 100%) !important;
-
-    @media screen and (max-width: 76.25em) {
-        color: transparent !important;
-    }
     display: block !important;
     font-weight: 700 !important;
     overflow: hidden !important;
-    padding: 0 .6rem !important;
     text-overflow: ellipsis !important;
 }
 

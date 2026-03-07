@@ -1,5 +1,6 @@
 site_name: Mafia Wiki
 site_url: https://mafiawiki.astrofare.xyz/
+site_description: The official community-driven wiki for the Roblox game Mafia by Topline Studios.
 #repo_url: https://github.com/octanebula/mafiawiki
 
 theme:

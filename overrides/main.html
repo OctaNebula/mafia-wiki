@@ -3,6 +3,13 @@
 {% block extrahead %}
     {{ super() }}
 
+    <!-- SEO: Canonical URL -->
+    <link rel="canonical" href="{{ page.canonical_url }}" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:site_name" content="Mafia Wiki" />
+
     {% if page and page.meta.title %}
         <meta property="og:title" content="{{ page.meta.title }} - Mafia Wiki" />
         <meta name="twitter:title" content="{{ page.meta.title }} - Mafia Wiki" />
@@ -22,6 +29,21 @@
     <meta property="og:url" content="{{ page.canonical_url }}" />
     <meta property="og:type" content="article" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mafia Wiki",
+        "url": "https://mafiawiki.astrofare.xyz/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mafiawiki.astrofare.xyz/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
 
     {% if page and page.meta.background %}
         <style>

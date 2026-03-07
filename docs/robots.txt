@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mafiawiki.astrofare.xyz/sitemap.xml
