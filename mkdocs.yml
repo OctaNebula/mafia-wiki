@@ -13,11 +13,22 @@ theme:
     accent: magenta
   features:
     - navigation.instant.preview
-  
+    - navigation.indexes
 
 
 nav:
   - Home: index.md
+  - Roles: roles/index.md
+  - Maps: maps/index.md
+  - Perks: perks/index.md
+  - Disguises: disguises/index.md
+  - Lore: lore/index.md
+  - Meta:
+    - meta/index.md
+    - Writing Guide: meta/writing-guide.md
+    - Article Template: meta/article-template.md
+    - Markdown Showcase: meta/markdown-formatting-showcase.md
+    - Contributors: meta/contributors.md
 
 extra:
   generator: false
@@ -52,3 +63,6 @@ extra_css:
 
 plugins:
   - search
+
+hooks:
+  - hooks/category_index.py

@@ -125,3 +125,33 @@ a:hover {
     padding: 0 .6rem !important;
     text-overflow: ellipsis !important;
 }
+
+/* Category index table */
+.category-index {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.category-index thead th {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.category-index tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.category-index tbody tr:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.category-index tbody td a {
+    font-weight: 500;
+}
