@@ -1,0 +1,264 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+
+:root {
+    --md-text-font: "Century Gothic Paneuropean", sans-serif;
+    --md-primary-fg-color: #171717;
+    --md-accent-fg-color: #ff4081;
+    --md-default-bg-color: #121212;
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+body {
+    /* background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover; nuked due to me trying to make things more dynamic*/
+    color: white !important;
+    font-family: var(--md-text-font);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.md-nav--primary,
+.md-nav--secondary {
+    background: rgba(0, 0, 0, 0.75) !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+.md-nav--primary .md-nav__title,
+.md-nav--secondary .md-nav__title {
+    background: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+}
+
+/* ── Sidebar polish (both left + right) ── */
+.md-sidebar {
+    padding: 10px 0;
+}
+
+.md-sidebar__inner {
+    padding: 0 4px;
+}
+
+.md-sidebar__scrollwrap {
+    padding: 0 4px;
+}
+
+/* Left sidebar (navigation) */
+.md-nav--primary > .md-nav__list {
+    padding: 6px 2px;
+}
+
+/* Right sidebar (table of contents) */
+.md-sidebar--secondary .md-nav {
+    background: rgba(0, 0, 0, 0.75) !important;
+    border-radius: 10px;
+    padding: 8px 4px;
+}
+
+.md-sidebar--secondary .md-nav__title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.45) !important;
+    padding: 8px 10px 6px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 4px;
+}
+
+.md-sidebar--secondary .md-nav__link {
+    padding: 6px 10px !important;
+}
+
+.md-nav__item {
+    padding: 0;
+    margin: 0;
+}
+
+.md-nav__link {
+    padding: 6px 10px !important;
+    border-radius: 6px;
+    margin: 1px 2px;
+    font-size: 0.82rem;
+    letter-spacing: 0.01em;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.md-nav__link:hover {
+    background: rgba(255, 255, 255, 0.07) !important;
+}
+
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+    background: rgba(74, 144, 226, 0.12) !important;
+    color: #4a90e2 !important;
+    font-weight: 600;
+}
+
+/* Sidebar section labels (top-level items with children) */
+.md-nav--primary > .md-nav__list > .md-nav__item--nested > .md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item--nested > label.md-nav__link {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.45) !important;
+    padding: 8px 10px 4px !important;
+    margin: 6px 2px 0;
+}
+
+/* Nested nav children get a subtle left border */
+.md-nav--primary .md-nav__item--nested .md-nav {
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Nav toggle icon (expand/collapse chevron) */
+.md-nav__icon {
+    color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Primary nav title ("Mafia Wiki" label) */
+.md-nav--primary > .md-nav__title {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.35) !important;
+    padding: 10px 12px 8px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 76.25em) {
+    .md-nav__title {
+        color: transparent !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        text-overflow: ellipsis !important;
+    }
+
+    .md-nav__title img {
+        display: block !important;
+        margin: 0 auto !important;
+        max-width: 75% !important;
+        height: auto !important;
+    }
+
+    .md-nav--primary {
+        border-radius: 0px !important;
+    }
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+    width: 5px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.md-sidebar__scrollwrap {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+.md-content {
+    color: white !important;
+}
+
+.md-footer {
+    display: none !important;
+}
+
+a {
+    color: #4a90e2 !important;
+}
+
+a:hover {
+    color: #ff4081 !important;
+}
+
+.md-container {
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 1400px;
+    margin: auto;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+    color: white !important;
+}
+
+.md-nav__title {
+    color: hsl(0, 0%, 100%) !important;
+    display: block !important;
+    font-weight: 700 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* Category index table */
+.category-index {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.category-index thead th {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.category-index tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.category-index tbody tr:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.category-index tbody td a {
+    font-weight: 500;
+}
+
+/* ── Hide empty right sidebar ── */
+.md-sidebar--secondary:has(.md-nav--secondary .md-nav__list:empty),
+.md-sidebar--secondary:has(.md-nav--secondary:empty) {
+    display: none !important;
+}
+
+/* Fallback: hide via JS class */
+.md-sidebar--secondary.md-sidebar--empty {
+    display: none !important;
+}
