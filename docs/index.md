@@ -3,9 +3,6 @@ title: Home
 description: Welcome to the Official Roblox Mafia Wiki
 social_image: /assets/placeholder.png
 background: /assets/background.jpg
-hide:
-  - navigation
-  - toc
 ---
 
 <style>
