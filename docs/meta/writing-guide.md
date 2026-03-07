@@ -282,7 +282,7 @@ Valid categories: `roles`, `maps`, `perks`, `disguises`, `lore`, `meta`.
 
 If you successfully contribute a **new article** to the wiki, you'll receive:
 
-- **500 Credits** in-game
+- **150 Credits** in-game
 - **Wiki Contributor** role on Discord
 - **Wiki Contributor** chat tag in-game
 - Credit on the [Contributors](contributors.md) page
